@@ -1,0 +1,28 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip"
+    android:paddingTop="1dip" >
+
+  <TextView
+       android:id="@+id/file_name"
+       android:layout_width="fill_parent"
+       android:layout_height="20pt" 
+       android:layout_weight="1"
+       android:gravity="left"
+       android:layout_marginLeft="20dp"
+       android:textSize="8pt"/>
+  
+  <TextView
+       android:id="@+id/file_size"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:gravity="right"
+       android:layout_weight="1"
+       android:layout_marginRight="10dp"
+       android:textSize="8pt"/>
+ 
+</LinearLayout>
